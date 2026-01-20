@@ -1,19 +1,27 @@
-# Arrays in C
-THis folder has basic array programs implemented using C 
+#Array Programs in C
 
-#programs
-1.Array operations
-  insertion and deletions in an array ( array_operations.c )
-2.Linear search
-  Sequential search in an array
-3.Binary search
-  Efficient search on a sorted array
+This folder contains basic array programs written in C language.
 
-#Language
- C programing
+Files in this folder--->
 
-#compilation
- gcc filename.c ./a.out
+array_operations.c
+- Performs basic array operations like insertion, deletion and traversal
 
+linear_search.c
+- Searches an element using linear search
+
+binary_search.c
+- Searches an element using binary search (array must be sorted)
+
+Concepts covered
+- Arrays
+- Traversing an array
+- Linear search
+- Binary search
+
+How to compile and run
+
+gcc filename.c -o output
+./output
 
 
