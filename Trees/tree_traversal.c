@@ -1,4 +1,9 @@
 //implementing Binary Tree traversal 
+//preorder traversal  =  root,left subtree,right subtree
+//postorder traversal =  left subtree,right subtree,root
+//inorder traversal   =  left subtree,root,right subtree
+#include<stdio.h>
+#include<malloc.h>
 #include<stdio.h>
 #include<malloc.h>
 
@@ -42,7 +47,7 @@ int main(){
     struct node *p2 = createNode(6);
     struct node *p3 = createNode(5);
     struct node *p4 = createNode(2);
-    // Finally The tree looks like this:
+    
     //      4
     //     / \
     //    1   6
