@@ -1,4 +1,4 @@
-//implementing Depth First Search traversal technique
+//implementing Depth First Search traversal technique using C language
 #include <stdio.h>
 #define MAX 100
 
