@@ -1,20 +1,27 @@
-# Queue – using C programs
+# Queue Implementation in C
 
-This folder contains Queue implementations in C using arrays and linked lists, including circular queue.
+This folder contains C programs that demonstrate **Queue data structures** using both **arrays** and **linked lists**.  
+It also includes implementations of **Circular Queues**.
 
-## Files
--queue_using_array.c – Queue using array  
--queue_using_linkedList.c – Queue using linked list  
--circular_queue_using_array.c – Circular queue using array  
--circular_queue_using_linkedList.c – Circular queue using linked list  
+## Files in this Folder
 
-## Operations
+- **queue_using_array.c**  
+  Implementation of a **Queue using an Array** with basic operations:
+  - Enqueue
+  - Dequeue
+  - Display
 
-- Enqueue  
-- Dequeue  
-- Display  
-- Overflow & Underflow checks  
+- **queue_using_linkedList.c**  
+  Implementation of a **Queue using a Linked List**, allowing dynamic memory allocation.
 
-## How to Run
-gcc filename.c -o output
-./output
+- **circular_queue_using_array.c**  
+  Implementation of a **Circular Queue using an Array**, which efficiently utilizes memory by reusing empty spaces.
+
+- **circular_queue_using_linkedList.c**  
+  Implementation of a **Circular Queue using a Linked List**, where the last node points back to the first node.
+
+## How to Compile and Run
+
+Use gcc to compile any file:
+gcc queue_using_array.c -o queue_array
+./queue_array
